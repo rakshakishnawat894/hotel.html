@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Crowny - Booking Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <!-- Use a relative path for your logo image -->
+        <img src="d:\Users\Welcome\Pictures\Crown1.jpg" alt="Hotel Crowny Logo" />
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <!-- Each link opens in a new tab -->
+          <li><a href="#home" target="_blank">Home</a></li>
+          <li><a href="#about" target="_blank">About Us</a></li>
+          <li><a href="#rooms" target="_blank">Rooms</a></li>
+          <li><a href="#menu" target="_blank">Our Menu</a></li>
+          <li><a href="#contact" target="_blank">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION (Home) ===== -->
+<section id="home" class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h2>Welcome to Hotel Crowny</h2>
+            <p>Experience luxury and comfort at our premium hotel.</p>
+            <a href="#rooms" class="btn">Book Now</a>
+        </div>
+    </div>
+</section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="about-section">
+    <div class="about-container container">
+      <div class="about-content">
+        <h2 class="section-title">About Us</h2>
+        <p>
+            Welcome to <strong>Hotel Crowny</strong>, where luxury meets comfort.
+            Nestled in the heart of the city, we offer a serene escape with world-class amenities and
+            personalized service. Whether you're here for business or leisure, our hotel is designed
+            to cater to your every need.
+        </p>
+        <p>
+            Enjoy a range of facilities, including a rooftop pool, gourmet dining options,
+            a state-of-the-art gym, and spa services. At <strong>Your Hotel Name</strong>, we
+            believe in making every stay unforgettable.
+            </p>
+      </div>
+      <div class="about-image">
+        <img src="d:\Users\Welcome\Downloads\about.jpg" alt="About Hotel Crowny" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROOMS SECTION ===== -->
+  <section id="rooms" class="rooms">
+    <div class="container">
+      <h2>Our Rooms</h2>
+      <div class="room-list">
+        <div class="room">
+          <img src="d:\Users\Welcome\Downloads\Duplex.jpeg" alt="Deluxe Room" />
+          <h3>Deluxe Room</h3>
+          <p class="room-description">
+            Experience luxury in our Deluxe Room featuring a king-sized bed, free
+            Wi-Fi, a mini-bar, and a stunning city view. Perfect for couples and business travelers.
+            </p>
+            <p>Price: $10000/night</p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="room">
+          <img src="d:\Users\Welcome\Downloads\suit.jpeg" alt="Suite Room" />
+          <h3>Suite Room</h3>
+          <p class="room-description">
+            Our Suite Room offers a separate living area, luxurious furnishings, a
+            private balcony, and access to the executive lounge. Ideal for families and long stays.
+            </p>
+            <p>Price: $25000/night</p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="room">
+          <img src="d:\Users\Welcome\Downloads\family.jpeg" alt="Family Room" />
+          <h3>Family Room</h3>
+          <p class="room-description">
+            A cozy option with a queen-sized bed, flat-screen TV, and modern decor.
+            Great for budget-conscious travelers looking for comfort and convenience.
+            </p>
+            <p>Price: $30000/night</p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-list">
+        <!-- Breakfast -->
+        <div class="menu-item" data-category="breakfast">
+          <h3>Breakfast</h3>
+          <div class="slider">
+            <span class="arrow left-arrow">&#9664;</span>
+            <img src="d:\Users\Welcome\Downloads\fruits.jpg" alt="Breakfast" />
+            <span class="arrow right-arrow">&#9654;</span>
+          </div>
+          <p>Start your day with a variety of delicious breakfast options.</p>
+        </div>
+        <!-- Lunch -->
+        <div class="menu-item" data-category="lunch">
+          <h3>Lunch</h3>
+          <div class="slider">
+            <span class="arrow left-arrow">&#9664;</span>
+            <img src="d:\Users\Welcome\Downloads\pasta.jpg" alt="Lunch" />
+            <span class="arrow right-arrow">&#9654;</span>
+          </div>
+          <p>Enjoy our chef's special lunch menu featuring local and international
+            dishes.</p>
+        </div>
+        <!-- Dinner -->
+        <div class="menu-item" data-category="dinner">
+          <h3>Dinner</h3>
+          <div class="slider">
+            <span class="arrow left-arrow">&#9664;</span>
+            <img src="d:\Users\Welcome\Downloads\vegiterian.jpg" alt="Dinner" />
+            <span class="arrow right-arrow">&#9654;</span>
+          </div>
+          <p>Relax with a fine dining experience in the evening.</p>
+        </div>
+        <!-- Beverages -->
+        <div class="menu-item" data-category="beverages">
+          <h3>Beverages</h3>
+          <div class="slider">
+            <span class="arrow left-arrow">&#9664;</span>
+            <img src="d:\Users\Welcome\Downloads\vegiterian.jpg" alt="Beverages" />
+            <span class="arrow right-arrow">&#9654;</span>
+          </div>
+          <p>Choose from a selection of refreshing drinks and cocktails.</p>
+        </div>
+        <!-- Room Service -->
+        <div class="menu-item room-service">
+          <h3>Room Service</h3>
+          <div class="image-container">
+            <img src="d:\Users\Welcome\Downloads\servuce.jpg" alt="Room Service" />
+          </div>
+          <p class="description">
+            Enjoy a wide range of meals, snacks, and beverages delivered directly to
+            your room.
+            Whether you are in the mood for a hearty meal or a light snack, our room
+            service is available 24/7
+            to cater to your needs. Call us at <strong>+1 234 567 890</strong> to
+            place your order.
+            Experience convenience and luxury with just one call!
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="contact-intro">
+            We’d love to hear from you! Reach out to us for bookings, inquiries, or feedback.
+        </p>
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+                <div id="successMessage" class="success-message">
+                    Thank you! Your message has been sent successfully.
+                </div>
+            </div>
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Address:</strong> 123 Dream Street, Paradise City</p>
+                <p><strong>Email:</strong> info@hotelcrowny.com</p>
+                <p><strong>Phone:</strong> +1 (234) 567-8900</p>
+                <p><strong>Hours:</strong> 24/7 Customer Support</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <footer class="footer">
+    <div class="container">
+        <!-- About Section -->
+        <div class="footer-about">
+            <h3>About Our Hotel</h3>
+            <p>
+                At Hotel Crowny, we provide a luxurious experience that blends comfort, elegance, and exceptional service. 
+                Located in the heart of the city, our hotel is the perfect destination for leisure and business travelers alike.
+            </p>
+            <p>
+                Whether you're staying for a night or an extended visit, we strive to make every moment memorable.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-contact">
+            <h3>Contact Information</h3>
+            <p><strong>Address:</strong> 123 Dream Street, Paradise City</p>
+            <p><strong>Email:</strong> info@yourhotel.com</p>
+            <p><strong>Phone:</strong> +1 (234) 567-8900</p>
+            <p><strong>Hours:</strong> Open 24/7</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="d:\Users\Welcome\Downloads\facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="d:\Users\Welcome\Downloads\twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="d:\Users\Welcome\Downloads\instagram.jpeg" alt="Instagram"></a>
+                <a href="#"><img src="d:\Users\Welcome\Downloads\instagram.jpeg" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 Your Hotel Crowny. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
+/* script.js */
+<script>
+// Define images object for slider functionality
+const images = {
+  breakfast: [
+    { src: "d:/Users/Welcome/Downloads/fruits.jpg", desc: "Fresh fruits and a healthy start." },
+    { src: "d:/Users/Welcome/Downloads/pancake.jpeg", desc: "Pancakes with syrup and berries." },
+    { src: "d:/Users/Welcome/Downloads/tradition breakfast.jpeg", desc: "Traditional breakfast platter." }
+  ],
+  lunch: [
+    { src: "d:/Users/Welcome/Downloads/pasta.jpg", desc: "Pasta with creamy sauce." },
+    { src: "d:/Users/Welcome/Downloads/rice.webp", desc: "Rice and curry delight." },
+    { src: "d:/Users/Welcome/Downloads/grilled.jpg", desc: "Grilled chicken with veggies." }
+  ],
+  dinner: [
+    { src: "d:/Users/Welcome/Downloads/vegiterian.jpg", desc: "Vegetarian lasagna." },
+    { src: "d:/Users/Welcome/Downloads/steak.avif", desc: "Steak with mashed potatoes." },
+    { src: "d:/Users/Welcome/Downloads/seafood.avif", desc: "Seafood platter with lemon garnish." }
+  ],
+  beverages: [
+    { src: "d:/Users/Welcome/Downloads/coffee.webp", desc: "Coffee with cream and sugar." },
+    { src: "d:/Users/Welcome/Downloads/iced-tea.webp", desc: "Refreshing iced tea." },
+    { src: "d:/Users/Welcome/Downloads/orange.jpg", desc: "Freshly squeezed orange juice." }
+  ]
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Sticky header effect
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    if (header) {
+      header.style.boxShadow = window.scrollY > 50 ? '0 4px 6px rgba(0, 0, 0, 0.1)' : 'none';
+    }
+  });
+
+  // Room booking alert
+  const bookingButtons = document.querySelectorAll('.room .btn');
+  bookingButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      alert('Thank you for booking with us!');
+    });
+  });
+
+  // Contact form submission
+  document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contactForm");
+    const successMessage = document.getElementById("successMessage");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Get input values
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            // Validate if all fields are filled
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill in all fields before submitting.");
+                return;
+            }
+
+            // Display success message
+            successMessage.style.display = "block";
+
+            // Clear form fields
+            contactForm.reset();
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMessage.style.display = "none";
+            }, 5000);
+        });
+    }
+});
+
+
+
+  // Initialize slider for each menu item with slider arrows
+  function initMenuSliders() {
+    const menuItems = document.querySelectorAll('.menu-item');
+    menuItems.forEach(item => {
+      const category = item.getAttribute('data-category');
+      if (!images.hasOwnProperty(category)) return;
+      
+      let currentIndex = 0;
+      const imageElement = item.querySelector('img');
+      let descElement = item.querySelector('.description');
+      const leftArrow = item.querySelector('.left-arrow');
+      const rightArrow = item.querySelector('.right-arrow');
+
+      function updateSlider() {
+        imageElement.src = images[category][currentIndex].src;
+        descElement.textContent = images[category][currentIndex].desc;
+      }
+
+      if (leftArrow) {
+        leftArrow.addEventListener('click', () => {
+          currentIndex = (currentIndex - 1 + images[category].length) % images[category].length;
+          updateSlider();
+        });
+      }
+      if (rightArrow) {
+        rightArrow.addEventListener('click', () => {
+          currentIndex = (currentIndex + 1) % images[category].length;
+          updateSlider();
+        });
+      }
+      updateSlider();
+    });
+  }
+
+  initMenuSliders();
+});
+</script>
